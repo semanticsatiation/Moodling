@@ -28,6 +28,12 @@ gem "psych", "~> 3.0"
 # deals with "no methods called .exists?" error which prevented rails webpacker:install from working
 gem 'file_exists', '~> 0.2.0'
 
+gem 'devise'
+
+gem 'jsonapi-serializer'
+
+gem 'rack-cors'
+
 
 
 # Use Active Storage variant
@@ -48,6 +54,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring', '>= 4'
   gem 'spring-watcher-listen', '~> 2.1.0'
+
+  gem 'faker'
 end
 
 group :test do

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Month from './components/Month';
+import Month from './components/month.jsx';
 
 function App() {
   return (

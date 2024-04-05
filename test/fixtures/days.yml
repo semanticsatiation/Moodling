@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  mood: MyString
+  user: one
+  description: MyText
+  mood_intensity: 1
+
+two:
+  mood: MyString
+  user: two
+  description: MyText
+  mood_intensity: 1
